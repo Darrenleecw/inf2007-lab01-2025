@@ -96,7 +96,7 @@ fun UserInput(name: String, onNameChange: (String) -> Unit, modifier: Modifier =
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello $name!, Welcome to INF2007!",
+        text = "Hello $name!, Welcome to INF2007!", //test
         modifier = Modifier
             .fillMaxWidth()
             .testTag("greetingMsg")
